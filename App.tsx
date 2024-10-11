@@ -6,6 +6,7 @@ import HomePage from './src/pages/Home'
 import UserPage from './src/pages/User'
 import EditUserPage from './src/pages/User/Edit'
 import RolesPage from './src/pages/Roles'
+import NewRolesPage from './src/pages/NewRole'
 
 const Stack = createNativeStackNavigator()
 
@@ -18,6 +19,7 @@ export default function App() {
         <Stack.Screen name="User" component={UserPage} />
         <Stack.Screen name="EditUser" component={EditUserPage} />
         <Stack.Screen name="Roles" component={RolesPage} />
+        <Stack.Screen name="NovaRole" component={NewRolesPage} />
       </Stack.Navigator>
     </NavigationContainer>
 

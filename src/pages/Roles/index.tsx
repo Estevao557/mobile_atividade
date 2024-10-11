@@ -41,7 +41,7 @@ export default function RolesPage() {
             fetchRoles();
     }, [])
 
-    function goToNewRole() {
+    function goToNovaRole() {
         navigation.navigate('NovaRole');
       }
 
@@ -63,7 +63,7 @@ export default function RolesPage() {
             />
 
             <View style={styles.bottomButtons}>
-                <CustomButton title="Add Role" onPress={goToNewRole} color="#0000FF" />
+                <CustomButton title="Add Role" onPress={goToNovaRole} color="#0000FF" />
             </View>
 
         </View>
